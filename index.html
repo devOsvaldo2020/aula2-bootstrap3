@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+		<head>
+			<meta charset="utf-8">
+			<link rel="stylesheet" type="text/css" href="estilo.css">
+			<title>bootstrap- aula do </title>
+			<meta name="viewport" content="width=device-width, inicial-scale=1">
+
+			<!---css---->
+			<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+			<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+			<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+			<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">	
+		</head>
+		<header>
+			
+			
+			<div class="container" style="min-height: 100px; background-color: #333; color: red " >
+				<h2>inserindo botões:</h2>
+				<a href="#" class="btn btn-default">link</a>
+				<button class="btn btn-info">botão</button>
+				<input type="submit" name="input" value="Submit" class="btn btn-danger">
+				<h3>Podendo ser das cores padroes do bootstrap.</h3>
+
+				<!--inserindo icones----->
+				<div>
+					<!--usando em link--->
+					<a href="#"><span class="glyphicon glyphicon-search" aria-hipper="true"></span></a>
+					<!---uso normal--->
+					<span class="glyphicon glyphicon-home" aria-hipper="true" ></span>
+				</div>
+
+			</div>
+
+		</header>	
+
+				<body>	
+
+					<div class="container" style="min-height: 500px; background-color: #000">
+						<div class="row">
+							<div class="col-md-12" style="background-color: green; min-height: 100px;">
+									<span class="label label-default">Default</span> 
+									<span class="label label-primary">Primary</span> 
+									<span class="label label-success">Success</span> 
+									<span class="label label-info">Info</span> 
+									<span class="label label-warning">Warning</span> 
+									<span class="label label-danger">Danger</span>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-8" style="background-color: blue; min-height: 300px;">
+								<h3>JUMBOTRON</h3>
+								<div class="jumbotron">
+									  <h1>Olá mundo!</h1>
+									  <p>... aqui coloca a descrição do assunto.</p>
+									  <p><a class="btn btn-primary btn-lg" href="#" role="button">Quero aprender mais</a></p>
+								</div>
+								<div>
+									<img src="img/city1.jpg" class="img-rounded" width="90%" >
+								</div>
+								<div>
+									<img src="img/city2.jpg" class="img-circle" width="90%">
+								</div>
+								<div>
+									<img src="img/city3.jpg" class="img-thumbnail" width="90%">
+								</div>
+								<div>
+									<h3>mais coisa aqui...</h3>
+								</div>
+							</div>
+							<div class="col-md-4" style="background-color: red; min-height: 300px;">
+								<h2 align="center">Tipos de tabelas do bootstrap!</h2>
+								<table class="table">
+									<tr><th>Nucleotídeo</th>        <th>Código</th>
+									</tr>
+											<tr><td>Adenina</td>	<td>A</td></tr>
+											<tr><td>Guanina</td>	<td>G</td></tr>
+											<tr><td>Citosina</td>	<td>C</td></tr>
+											<tr><td>Tiamina</td>	<td>T</td></tr>	
+								</table>
+								<!----testando os tipo de tabela-->
+								<table class="table table-condensed">
+									<tr><th>Nucleotídeo</th>        <th>Código</th>
+									</tr>
+											<tr><td>Adenina</td>	<td>A</td></tr>
+											<tr><td>Guanina</td>	<td>G</td></tr>
+											<tr><td>Citosina</td>	<td>C</td></tr>
+											<tr><td>Tiamina</td>	<td>T</td></tr>	
+								</table>
+								<!----testando os tipo de tabela-->
+								<table class="table table-condensed table-striped">
+									<tr><th>Nucleotídeo</th>        <th>Código</th>
+									</tr>
+											<tr><td>Adenina</td>	<td>A</td></tr>
+											<tr><td>Guanina</td>	<td>G</td></tr>
+											<tr><td>Citosina</td>	<td>C</td></tr>
+											<tr><td>Tiamina</td>	<td>T</td></tr>	
+								</table>
+								<!----testando os tipo de tabela-->
+								<table class="table table-condensed table-striped table-bordered ">
+									<tr><th>Nucleotídeo</th>        <th>Código</th>
+									</tr>
+											<tr><td>Adenina</td>	<td>A</td></tr>
+											<tr><td>Guanina</td>	<td>G</td></tr>
+											<tr><td>Citosina</td>	<td>C</td></tr>
+											<tr><td>Tiamina</td>	<td>T</td></tr>	
+								</table>
+								<!----testando os tipo de tabela-->
+								<table class="table table-condensed table-striped table-bordered table-hover">
+									<tr><th>Nucleotídeo</th>        <th>Código</th>
+									</tr>
+											<tr><td>Adenina</td>	<td>A</td></tr>
+											<tr><td>Guanina</td>	<td>G</td></tr>
+											<tr><td>Citosina</td>	<td>C</td></tr>
+											<tr><td>Tiamina</td>	<td>T</td></tr>	
+								</table>
+
+
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12" style="min-height: 100px; background-color: #660; color: white">
+								<h3>Barras de processos!</h3>
+
+									<div class="progress">
+									  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+									    <span class="sr-only">40%</span>
+									  </div>
+									</div>
+									 
+									<div class="progress">
+									  <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+									    <span class="sr-only">20%</span>
+									  </div>
+									</div>
+									 
+									<div class="progress">
+									  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+									    <span class="sr-only">60%</span>
+									  </div>
+									</div>
+									 
+									<div class="progress">
+									  <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+									    <span class="sr-only">80%</span>
+									  </div>
+									</div>
+							</div>
+						</div>
+					</div>
+
+				</body>
+		<footer>
+			
+			<script type="text/javascript" src="js/jquery.min.js"></script>
+			<script type="text/javascript" src="js/jquery.js"></script>
+			<script type="text/javascript" src="js/bootstrap.min.js"></script>
+			<script type="text/javascript" src="js/bootstrap.js"></script>	
+			<script type="text/javascript" src="js/npm.js"></script>
+		</footer>
+</html>
